@@ -2,7 +2,7 @@
 from modules import cbpi
 from modules.core.hardware import SensorPassive
 from modules.core.props import Property
-import max31865
+from . import max31865
 
 @cbpi.sensor
 class PT100(SensorPassive):
